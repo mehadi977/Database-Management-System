@@ -1,0 +1,10 @@
+Difference between Data and Information
+Data: Data is a collection of raw facts and figures.
+Data হলো কাঁচা তথ্য বা সংখ্যা, যা এখনো প্রক্রিয়াজাত করা হয়নি।
+
+Information: Information is processed and meaningful data.
+Information হলো প্রক্রিয়াজাত Data, যা অর্থপূর্ণ তথ্য প্রদান করে।
+Data	Information
+1. It is raw and unprocessed.	It is processed and meaningful.
+2. It has no clear meaning.	It has a clear meaning.
+3. It is used to create information.	It is created from data.

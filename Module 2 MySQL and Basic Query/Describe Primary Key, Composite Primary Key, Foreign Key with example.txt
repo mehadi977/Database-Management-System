@@ -1,0 +1,47 @@
+1. Primary Key
+English: A Primary Key is a column that uniquely identifies each row in a table. It cannot contain duplicate or NULL values.
+
+বাংলা: Primary Key হলো এমন একটি Column, যা Table-এর প্রতিটি Row-কে আলাদাভাবে চিহ্নিত করে। এতে Duplicate বা NULL Value থাকতে পারে না।
+
+Example:
+Student_ID (PK)	Name
+101	Rahim
+102	Karim
+103	Mehadi
+
+এখানে Student_ID হলো Primary Key।
+2. Composite Primary Key
+English: A Composite Primary Key is a key made of two or more columns that together uniquely identify each row.
+
+বাংলা: দুই বা ততোধিক Column মিলে যখন একটি Primary Key তৈরি করে, তাকে Composite Primary Key বলে।
+
+Example:
+Student_ID	Course_ID	Grade
+101	CSE101	A
+101	CSE102	B
+102	CSE101	A
+
+এখানে Student_ID এবং Course_ID একসাথে Composite Primary Key।
+3. Foreign Key
+English: A Foreign Key is a column that refers to the Primary Key of another table. It creates a relationship between two tables.
+
+বাংলা: Foreign Key হলো এমন একটি Column, যা অন্য Table-এর Primary Key-কে Reference করে এবং দুটি Table-এর মধ্যে সম্পর্ক তৈরি করে।
+
+Example:
+
+Students Table
+Student_ID (PK)	Name
+101	Rahim
+102	Karim
+
+Orders Table
+Order_ID (PK)	Student_ID (FK)	Product
+1	101	Laptop
+2	102	Mouse
+
+এখানে Orders Table-এর Student_ID হলো Foreign Key, যা Students Table-এর Student_ID-কে Reference করে।
+
+মনে রাখার সহজ উপায়:
+- Primary Key: নিজের Table-এর Unique Identity।
+- Composite Primary Key: একাধিক Column মিলে Primary Key।
+- Foreign Key: অন্য Table-এর Primary Key-এর Reference।

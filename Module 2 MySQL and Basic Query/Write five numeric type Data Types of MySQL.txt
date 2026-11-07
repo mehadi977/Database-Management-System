@@ -1,0 +1,14 @@
+1. INT: Used to store whole numbers.
+পূর্ণসংখ্যা সংরক্ষণ করতে ব্যবহৃত হয়।
+
+2. TINYINT: Used to store very small whole numbers.
+ছোট পূর্ণসংখ্যা সংরক্ষণ করতে ব্যবহৃত হয়।
+
+3. SMALLINT: Used to store small whole numbers.
+ছোট পূর্ণসংখ্যা সংরক্ষণ করতে ব্যবহৃত হয়।
+
+4. BIGINT: Used to store very large whole numbers.
+বড় পূর্ণসংখ্যা সংরক্ষণ করতে ব্যবহৃত হয়।
+
+5. FLOAT: Used to store decimal numbers.
+দশমিক সংখ্যা সংরক্ষণ করতে ব্যবহৃত হয়।
